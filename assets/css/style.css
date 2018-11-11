@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.dark-font{
+    color: #222;
+}
+
+
+/*---------------------------- HEADER ----------------------------*/
+/*---------------------------- NAV ----------------------------*/
+
+.navbar-brand img{
+
+    width: 150px;
+    height: 50px;
+    margin: 0 20px;
+}
+
+.navbar-brand{
+    padding: 0;
+    float: left;
+    display: inline-block;
+}
+.open-side{
+	display: block;
+	float: right;
+	margin: 20px;
+}
+
+/********** MENU **************/
+.menu{
+    float: right;
+    margin-top: 12px;
+    color:#222;
+    display: none;
+}
+.menu a{
+   font-size: 20px; 
+   padding: 13px;
+   font-family: 'Montserrat', sans-serif;
+
+}
+.menu a:hover,.menu a:focus{
+    text-decoration: none;
+    background: rgb(230,230,230);
+    color: #000;
+}
+.event-info{
+    position: relative;
+    width: 400px;
+    margin: 100px auto;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(30,30,30,0.5);
+    text-align: center;
+}
+.showcase button{
+    background: rgb(255, 218, 11);
+    border-radius: 20px;
+}
+
+/********** SIDE-MENU **************/
+#side-menu{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background: rgb(248,248,248);
+    opacity: 0.9;
+    overflow-x:hidden;
+    padding-top: 60px;
+	transition: 1s;
+
+}
+#side-menu a {
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    display: block;
+    color: #222;
+    text-align: center;
+}
+
+#side-menu{
+	font-size: 24px;
+}
+#side-menu a:hover, .open-side a:hover{
+    color: #000;
+    background: rgb(230,230,230);
+}
+#side-menu .btn-close{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    position: absolute;
+    top: 5px;
+	right: 5px;
+    font-size: 36px;
+	border-radius: 5px;
+}
+
+.small{
+	font-size: 16px;
+}
+.open-side a{
+	border-radius: 5px;
+	padding: 20px 25px;
+    opacity: 0.9;
+    color:#222;
+}
+
+/*---------------------------- SHOWCASE ----------------------------*/
+
+.showcase{
+    background: url("../images/showcase.jpg") no-repeat center center fixed;
+    background-size: cover;
+    /* margin-top: 50px; */
+    height: 100vh;
+    display: block;
+    top: 100px;
+    /* position: relative; */
+}
+/*---------------------------- BAND ----------------------------*/
+/*---------------------------- MUSIC ----------------------------*/
+/*---------------------------- FOOTER ----------------------------*/
+/*---------------------------- MEDIA ----------------------------*/
+@media (min-width:768px){
+    .open-side{
+		display: none;
+    }
+    .menu{
+    display: inline-block;
+    }
+}

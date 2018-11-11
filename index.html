@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900" rel="stylesheet">
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <title>The Doors</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-default  navbar-fixed-top">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#">
+                  <img alt="Brand" src="assets/images/logo1.png">
+                </a>
+              
+              <div class="menu ">
+                  <ul class="list-inline">
+                      <li class="menu-item "><a class="dark-font" href="#">HOME</a></li>
+                      <li class="menu-item"><a class="dark-font" href="#">THE BAND</a></li>
+                      <li class="menu-item"><a class="dark-font" href="#">MUSIC</a></li>
+                      <li class="menu-item"><a class="dark-font" href="#">LIVE</a></li>
+                      <li class="menu-item"><a  class="dark-font" href="#">CONTACT</a></li>
+                  </ul>
+                  
+              </div>
+              <!-- BURGER MENU -->
+              <span class="open-side" >
+				<a href="#" onclick="openMenu()" > <i class="fa fa-bars" ></i></a>
+			 </span>
+             <div id="side-menu" onclick="closeMenu()">
+                <a href="#" class="btn-close" onclick="closeMenu()">&times;</a>
+                <a href="#about">Home</a>
+                <a href="#about">The Band</a>
+                <a href="#about">Music</a>
+                <a href="#about">Live</a>
+                <a href="#foot">Contact</a>
+            </div>
+              <!-- BURGER MENU -->
+            </div>
+          </nav>  
+        <div class="container-fluid showcase">
+            <div class="event-info">
+            <h3>Are you looking for band </br> for your wedding/party?</h3>
+            <button class="btn btn-lg btn__login" data-toggle="modal" data-target="#signUpModal">Contact Us!</button>
+            </div>
+        </div>
+    </header>
+    <section id="the-band">
+        <div class="about"></div>
+    </section>
+    <section id="music"></section>
+    <section></section>
+    <section></section>
+    <footer></footer>
+</body>
+</html>
