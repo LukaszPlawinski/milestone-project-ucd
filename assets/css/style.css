@@ -1,7 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-}
+    min-width:400px;
+    }
+
 
 .dark-font{
     color: #222;
@@ -10,7 +12,9 @@ body{
 
 /*---------------------------- HEADER ----------------------------*/
 /*---------------------------- NAV ----------------------------*/
-
+.navbar{
+    opacity: 0.85;
+}
 .navbar-brand img{
 
     width: 150px;
@@ -37,8 +41,8 @@ body{
     display: none;
 }
 .menu a{
-   font-size: 20px; 
-   padding: 13px;
+   font-size: 18px; 
+   padding: 14px;
    font-family: 'Montserrat', sans-serif;
 
 }
@@ -125,14 +129,61 @@ body{
     /* position: relative; */
 }
 /*---------------------------- BAND ----------------------------*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+   padding: 40px;
+}
+
+.about img{
+    width: 100%;
+    margin: 50px auto;
+}
+.member-image img{
+    max-width: 520px;
+    width:100%;
+    min-height: 300px;
+ 
+}
+.member-info{
+    margin-top: 50px;
+    font-size: 12px;
+}
+.carousel-inner{
+    background: #222;
+    color: #fafafa;S
+    border-radius: 15px;
+}
+.carousel-control{
+    border-radius: 15px;
+
+}
+
+
 /*---------------------------- MUSIC ----------------------------*/
+.album-cover img{
+    width: 100%;
+    height: 100%;
+}
+.album-cover{
+    margin:15px 0;
+}
 /*---------------------------- FOOTER ----------------------------*/
 /*---------------------------- MEDIA ----------------------------*/
 @media (min-width:768px){
+
     .open-side{
 		display: none;
     }
     .menu{
     display: inline-block;
     }
+    .member-image img{
+        width: 100%;
+        height: 500px;
+        min-width: 320px;
+        max-width: 400px;
+    }
 }
+
+
