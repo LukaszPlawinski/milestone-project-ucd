@@ -29,25 +29,25 @@
               
               <div class="menu ">
                   <ul class="list-inline">
-                      <li class="menu-item "><a class="dark-font" href="#">HOME</a></li>
-                      <li class="menu-item"><a class="dark-font" href="#">THE BAND</a></li>
-                      <li class="menu-item"><a class="dark-font" href="#">MUSIC</a></li>
-                      <li class="menu-item"><a class="dark-font" href="#">LIVE</a></li>
-                      <li class="menu-item"><a  class="dark-font" href="#">CONTACT</a></li>
+                      <li class="menu-item "><a class="dark-font" href="index.html">HOME</a></li>
+                      <li class="menu-item"><a class="dark-font" href="#theBand">THE BAND</a></li>
+                      <li class="menu-item"><a class="dark-font" href="#music">MUSIC</a></li>
+                      <li class="menu-item"><a class="dark-font" href="#concerts">LIVE</a></li>
+                      <li class="menu-item"><a  class="dark-font" href="#footer">CONTACT</a></li>
                   </ul>
                   
               </div>
               <!-- BURGER MENU -->
               <span class="open-side" >
-				<a href="#" onclick="openMenu()" > <i class="fa fa-bars" ></i></a>
+				<a  onclick="openMenu()" > <i class="fa fa-bars" ></i></a>
 			 </span>
              <div id="side-menu" onclick="closeMenu()">
-                <a href="#" class="btn-close" onclick="closeMenu()">&times;</a>
-                <a href="#about">Home</a>
-                <a href="#about">The Band</a>
-                <a href="#about">Music</a>
-                <a href="#about">Live</a>
-                <a href="#foot">Contact</a>
+                <a  class="btn-close" onclick="closeMenu()">&times;</a>
+                <a href="#index.html">Home</a>
+                <a href="#theBand">The Band</a>
+                <a href="#music">Music</a>
+                <a href="#concerts">Live</a>
+                <a href="#footer">Contact</a>
             </div>
               <!-- BURGER MENU -->
             </div>
@@ -55,12 +55,15 @@
         <div class="container-fluid showcase">
             <div class="event-info">
             <h3>Are you looking for band </br> for your wedding/party?</h3>
-            <button class="btn btn-lg btn__login" data-toggle="modal" data-target="#signUpModal">Contact Us!</button>
+            <a href="">
+                 <button class="btn btn-lg btn__login"  >Contact Us!</button>
+              </a>
             </div>
         </div>
     </header>
         <div class="container">
-            <section id="the-band " >
+ <!-- **************************** THE BAND ************************** -->
+            <section id="theBand" >
                 <div class="about row"> 
                     <div class="col-xs-12 col-md-8">
                             <div class="col-xs-12 col-md-11 ">
@@ -191,14 +194,14 @@
                 </div>
                     
             </section>
- <!-- **************************** MUSIC ************************** -->
+ <!-- **************************** MUSIC ***************************** -->
             <section id="music">
                     <h3>Music</h3>
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="album-cover">
- <!-- **************************** MODAL ************************** -->
-                            <!-- Modal -->
+            <!-- ***************** MODAL ************* -->
+                        
     <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -273,9 +276,9 @@
                     </div>
                 </div>
             </section>
-            <section></section>
+            <section id="concerts"></section>
             <section></section>
         </div>
-    <footer></footer>
+    <footer id="footer"></footer>
 </body>
 </html>
