@@ -14,7 +14,9 @@ body{
 /*---------------------------- NAV ----------------------------*/
 .navbar{
     opacity: 0.85;
+    min-width: 350px;
 }
+
 .navbar-brand img{
 
     width: 150px;
@@ -122,7 +124,6 @@ body{
 .showcase{
     background: url("../images/showcase.jpg") no-repeat center center fixed;
     background-size: cover;
-    /* margin-top: 50px; */
     height: 100vh;
     display: block;
     top: 100px;
@@ -165,8 +166,29 @@ body{
     width: 100%;
     height: 100%;
 }
+.album-cover img:hover{
+    opacity: 0.8;
+}
 .album-cover{
     margin:15px 0;
+}
+.modal-header audio{
+    width: 200px;
+}
+.modal-body{
+    text-align: center;
+}
+
+.modal-body i{
+    font-size: 20rem;
+    padding-left: 40px;
+    color: rgba(30,30,30,0.5);
+    transition: all 0.35s ease-in-out;
+   
+}
+.modal-body i:hover,.modal-body i:focus{
+    transform: scale(1.1);
+    color: rgba(181, 0, 0, 0.9);
 }
 /*---------------------------- FOOTER ----------------------------*/
 /*---------------------------- MEDIA ----------------------------*/
@@ -184,6 +206,10 @@ body{
         min-width: 320px;
         max-width: 400px;
     }
+    .modal-header audio{
+        width: 200px;
+    }
+
 }
 
 
