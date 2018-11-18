@@ -19,11 +19,11 @@ User can find on the website:
 ## Features
 
 Project is divided on 5 main sections:
-1.Header - Responsive navbar and Parallax effect background image.
-2.The Band - Description and images where I used Bootstrap Carousel.
-3.Music - Clicking on cover album iimage opens modal window where are song samples, tracklists of albums and date release.
-4.Video - Few responsive embed youtube music videos 
-5.Footer - Which includes validate contact form and social media links.
+1. Header - Responsive navbar and Parallax effect background image.
+2. The Band - Description and images where I used Bootstrap Carousel.
+3. Music - Clicking on cover album iimage opens modal window where are song samples, tracklists of albums and date release.
+4. Video - Few responsive embed youtube music videos 
+5. Footer - Which includes validate contact form and social media links.
 
 
 
@@ -32,14 +32,14 @@ Project is divided on 5 main sections:
 
 ## Technologies Used
 
-1.HTML
-2.CSS
-3.[Bootstrap(3.3.7)](https://getbootstrap.com/docs/3.3/)
+1. HTML
+2. CSS
+3. [Bootstrap(3.3.7)](https://getbootstrap.com/docs/3.3/)
     -for responsive layout and components as carousel and modal window
-4.Javascript for side menu 
-5.[Font Awsome](https://fontawesome.com/)
+4. Javascript for side menu 
+5. [Font Awsome](https://fontawesome.com/)
     - social link icons
-6.[Google Fonts](https://fonts.google.com/)
+6. [Google Fonts](https://fonts.google.com/)
 
 
 ## Testing
