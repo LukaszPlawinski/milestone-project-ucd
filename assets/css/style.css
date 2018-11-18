@@ -1,218 +1,367 @@
-body{
-    margin: 0;
-    padding: 0;
-    min-width:400px;
-    }
+ /* GENERAL
+    NAV
+    MENU
+    SIDE MENU
+    BAND
+    MUSIC
+    VIDEO
+    FOOTER
+    MEDIA QUERIES */
 
+ /*---------------------------- GENERAL ----------------------------*/
+ body {
+     margin: 0;
+     padding: 0;
+     min-width: 350px;
+     font-family: 'Montserrat', sans-serif;
 
-.dark-font{
-    color: #222;
-}
+ }
 
+ h2 {
+     font-weight: 700;
+     margin: 60px 0 10px 0;
+ }
 
-/*---------------------------- HEADER ----------------------------*/
-/*---------------------------- NAV ----------------------------*/
-.navbar{
-    opacity: 0.85;
-    min-width: 350px;
-}
+ /*---------------------------- NAV ----------------------------*/
+ .navbar {
+     opacity: 0.85;
+     min-width: 350px;
+ }
 
-.navbar-brand img{
+ .navbar-brand img {
 
-    width: 150px;
-    height: 50px;
-    margin: 0 20px;
-}
+     width: 150px;
+     height: 50px;
+     margin: 0 20px;
+ }
 
-.navbar-brand{
-    padding: 0;
-    float: left;
-    display: inline-block;
-}
-.open-side{
-	display: block;
-	float: right;
-	margin: 20px;
-}
+ .navbar-brand {
+     padding: 0;
+     float: left;
+     display: inline-block;
+ }
 
-/********** MENU **************/
-.menu{
-    float: right;
-    margin-top: 12px;
-    color:#222;
-    display: none;
-}
-.menu a{
-   font-size: 18px; 
-   padding: 14px;
-   font-family: 'Montserrat', sans-serif;
+ .open-side {
+     display: block;
+     float: right;
+     margin: 20px;
+ }
 
-}
-.menu a:hover,.menu a:focus{
-    text-decoration: none;
-    background: rgb(230,230,230);
-    color: #000;
-}
-.event-info{
-    position: relative;
-    width: 400px;
-    margin: 100px auto;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-family: 'Montserrat', sans-serif;
-    color: rgba(30,30,30,0.5);
-    text-align: center;
-}
-button{
-    background: rgb(255, 218, 11);
-    border-radius: 20px;
-    color: #222;
-}
-button:hover{
-    background: rgba(220,190,7);
-}
+ /********** MENU **************/
+ .menu {
+     float: right;
+     margin-top: 12px;
+     color: #222;
+     display: none;
+ }
 
-/********** SIDE-MENU **************/
-#side-menu{
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background: rgb(248,248,248);
-    opacity: 0.9;
-    overflow-x:hidden;
-    padding-top: 60px;
-	transition: 1s;
+ .menu a {
+     font-size: 2rem;
+     padding: 13px;
+     color: #333;
+ }
 
-}
-#side-menu a {
-    padding: 10px 10px 10px 10px;
-    text-decoration: none;
-    display: block;
-    color: #222;
-    text-align: center;
-}
+ .menu a:hover,
+ .menu a:focus {
+     text-decoration: none;
+     background: rgb(230, 230, 230);
+     color: #000;
+ }
 
-#side-menu{
-	font-size: 24px;
-}
-#side-menu a:hover, .open-side a:hover{
-    color: #000;
-    background: rgb(230,230,230);
-}
-#side-menu .btn-close{
-    width: 70px;
-    height: 70px;
-    text-align: center;
-    position: absolute;
-    top: 5px;
-	right: 5px;
-    font-size: 36px;
-	border-radius: 5px;
-}
+ .event-info {
+     position: relative;
+     width: 400px;
+     margin: 100px auto;
+     text-transform: uppercase;
+     font-weight: 900;
+     color: rgba(30, 30, 30, 0.5);
+     text-align: center;
+ }
 
-.small{
-	font-size: 16px;
-}
-.open-side a{
-	border-radius: 5px;
-	padding: 20px 25px;
-    opacity: 0.9;
-    color:#222;
-}
+ button {
+     background: rgb(255, 218, 11);
+     border-radius: 20px;
+     color: #222;
+ }
 
-/*---------------------------- SHOWCASE ----------------------------*/
+ button:hover {
+     background: rgba(220, 190, 7);
+ }
 
-.showcase{
-    background: url("../images/showcase.jpg") no-repeat center center fixed;
-    background-size: cover;
-    height: 100vh;
-    display: block;
-    top: 100px;
-    /* position: relative; */
-}
-/*---------------------------- BAND ----------------------------*/
-.container{
-    width: 80%;
-    margin: 0 auto;
-   padding: 40px;
-}
+ /********** SIDE-MENU **************/
+ #side-menu {
+     height: 100%;
+     width: 0;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     right: 0;
+     background: rgb(248, 248, 248);
+     opacity: 0.95;
+     overflow-x: hidden;
+     padding-top: 60px;
+     text-transform: uppercase;
 
-.about img{
-    width: 100%;
-    margin: 50px auto;
-}
-.member-image img{
-    max-width: 520px;
-    width:100%;
-    min-height: 300px;
- 
-}
-.member-info{
-    margin-top: 50px;
-    font-size: 12px;
-}
-.carousel-inner{
-    background: #222;
-    color: #fafafa;S
-    border-radius: 15px;
-}
+ }
 
-/*---------------------------- MUSIC ----------------------------*/
-.modal-header img,.album-cover img{
-    width: 100%;
-    height: 100%;
-}
+ #side-menu a {
+     padding: 10px 10px 10px 10px;
+     text-decoration: none;
+     display: block;
+     color: #222;
+     text-align: center;
+     -webkit-transition: all 0.4s ease-in-out;
+     -o-transition: all 0.4s ease-in-out;
+     transition: all 0.4s ease-in-out;
 
-.album-cover img:hover{
-    opacity: 0.8;
-}
-.album-cover{
-    margin:15px 0;
-}
-.modal-body audio{
-    width: 200px;
-}
-.modal-body{
-    text-align: center;
-}
+ }
 
-.modal-body i{
-    font-size: 20rem;
-    padding-left: 40px;
-    color: rgba(30,30,30,0.5);
-    transition: all 0.35s ease-in-out;
+ #side-menu {
+     font-size: 24px;
+ }
+
+ #side-menu a:hover,
+ .open-side a:hover {
+     color: #000;
+     background: rgb(230, 230, 230);
+     -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     transform: scale(1.2);
+
+ }
+
+ #side-menu .btn-close {
+     width: 70px;
+     height: 70px;
+     text-align: center;
+     position: absolute;
+     top: 5px;
+     right: 5px;
+     font-size: 36px;
+     border-radius: 5px;
+ }
+
+ .small {
+     font-size: 16px;
+ }
+
+ .open-side a {
+     border-radius: 5px;
+     padding: 20px 25px;
+     opacity: 0.9;
+     color: #222;
+ }
+
+ /*---------------------------- SHOWCASE ----------------------------*/
+
+ .showcase {
+     background-image: url("../images/showcase.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: contain;
+     background-position: bottom;
+     height: 100vh;
+     display: block;
    
-}
-.modal-body i:hover,.modal-body i:focus{
-    transform: scale(1.1);
-    color: rgba(181, 0, 0, 0.9);
-}
-/*---------------------------- FOOTER ----------------------------*/
-.form-control{
-    margin: 5px 0;
-}
-/*---------------------------- MEDIA ----------------------------*/
-@media (min-width:768px){
+ }
 
-    .open-side{
-		display: none;
-    }
-    .menu{
-    display: inline-block;
-    }
-    .member-image img{
-        width: 100%;
-        height: 500px;
-        /* min-width: 320px; */
-        max-width: 400px;
-    }
-    .modal-header audio{
-        width: 200px;
-    }
+ /*---------------------------- BAND ----------------------------*/
+ .container {
+     width: 90%;
+     margin: 0 auto;
+     padding: 40px;
+     -webkit-box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1);
+     box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1);
+ }
 
-}
+ .about p {
+     margin-top: 50px;
+ }
+
+ .about img {
+     width: 100%;
+     margin: 50px auto;
+ }
+
+ .member-image img {
+     max-width: 580px;
+     width: 100%;
+     min-height: 300px;
+
+ }
+
+ .member-info {
+     margin-top: 50px;
+     font-size: 12px;
+ }
+
+ .carousel-inner {
+     background: #222;
+     color: #fafafa;
+     S border-radius: 15px;
+ }
+
+ /*---------------------------- MUSIC ----------------------------*/
+ .modal-header img,
+ .album-cover img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .modal-body audio {
+     width: 100%;
+
+ }
+
+ .song-name {
+     text-align: center;
+     font-style: italic;
+ }
+
+ .modal-header p {
+     text-align: center;
+     margin-top: 25px;
+     font-size: 20px;
+     font-weight: 200;
+ }
+
+ .album-cover img:hover {
+     opacity: 0.8;
+ }
+
+ .album-cover {
+     margin: 15px 0;
+ }
+
+ .album-cover i {
+     position: absolute;
+     top: 50%;
+     left: 55%;
+     border-radius: 50%;
+     font-size: 44px;
+     color: #fafafa;
+     width: 60px;
+     height: 60px;
+     line-height: 60px;
+     -webkit-transform: translate(-50%, -50%) scale(0);
+     -ms-transform: translate(-50%, -50%) scale(0);
+     transform: translate(-50%, -50%) scale(0);
+     -webkit-transition: -webkit-transform 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+     transition: -webkit-transform 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+     -o-transition: transform 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+     transition: transform 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+     transition: transform 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045), -webkit-transform 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+ }
+
+ .album-cover:hover i {
+     -webkit-transform: translate(-50%, -50%) scale(1);
+     -ms-transform: translate(-50%, -50%) scale(1);
+     transform: translate(-50%, -50%) scale(1);
+     -webkit-transition: -webkit-transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+     transition: -webkit-transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+     -o-transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+     transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+     transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275), -webkit-transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+ }
+
+ .modal-body h4 {
+     margin-left: 20px;
+ }
 
 
+ /*---------------------------- VIDEO ----------------------------*/
+
+ .video {
+     position: relative;
+     padding-bottom: 56.25%;
+     padding-top: 30px;
+     height: 0;
+     overflow: hidden;
+     margin: 15px 0;
+ }
+
+ .video iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+ }
+
+ /*---------------------------- FOOTER ----------------------------*/
+ .form-control {
+     margin: 5px 0;
+     -webkit-text-emphasis: none;
+     text-emphasis: none;
+ }
+
+ #footer {
+     background: #222;
+     color: #fafafa;
+ }
+
+ #footer .container {
+     -webkit-box-shadow: none;
+     box-shadow: none;
+     padding-bottom: 0;
+ }
+
+ .adress,
+ .social-icons {
+     color: #fafafa;
+     margin-bottom: 40px;
+ }
+
+ .social-links i {
+     font-size: 13px;
+     color: #fafafa;
+     width: 34px;
+     height: 34px;
+     border: 1px solid #fafafa;
+     border-radius: 50%;
+     text-align: center;
+     padding: 10px;
+     margin-left: 4px;
+     margin-bottom: 15px;
+ }
+
+ .social-links .fa-youtube {
+     padding: 10px 12px 10px 8px;
+ }
+
+ .social-links i:hover {
+     color: rgb(255, 218, 11);
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -webkit-transition: all .3s ease-in-out;
+ }
+
+ #footer .copyrights {
+     margin-top: 50px;
+     text-align: center;
+ }
+
+ /*---------------------------- MEDIA QUERIES ----------------------------*/
+ @media (min-width:768px) {
+
+     .open-side {
+         display: none;
+     }
+
+     .menu {
+         display: inline-block;
+     }
+
+     .container {
+         width: 80%;
+     }
+
+     .member-image img {
+         width: 100%;
+         height: 500px;
+         max-width: 400px;
+     }
+
+
+ }

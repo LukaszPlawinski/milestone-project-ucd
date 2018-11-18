@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900|Sans:300,400" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
@@ -19,6 +19,7 @@
 </head>
 
 <body>
+    <!-- **************************** HEADER/NAV ************************** -->
     <header>
         <nav class="navbar navbar-default  navbar-fixed-top">
             <div class="container-fluid ">
@@ -28,11 +29,11 @@
 
                 <div class="menu ">
                     <ul class="list-inline">
-                        <li class="menu-item "><a class="dark-font" href="index.html">HOME</a></li>
-                        <li class="menu-item"><a class="dark-font" href="#theBand">THE BAND</a></li>
-                        <li class="menu-item"><a class="dark-font" href="#music">MUSIC</a></li>
-                        <li class="menu-item"><a class="dark-font" href="#concerts">LIVE</a></li>
-                        <li class="menu-item"><a class="dark-font" href="#footer">CONTACT</a></li>
+                        <li class="menu-item "><a href="index.html">HOME</a></li>
+                        <li class="menu-item"><a href="#theBand">THE BAND</a></li>
+                        <li class="menu-item"><a href="#music">MUSIC</a></li>
+                        <li class="menu-item"><a href="#video">VIDEO</a></li>
+                        <li class="menu-item"><a href="#footer">CONTACT</a></li>
                     </ul>
 
                 </div>
@@ -45,7 +46,7 @@
                     <a href="#index.html">Home</a>
                     <a href="#theBand">The Band</a>
                     <a href="#music">Music</a>
-                    <a href="#concerts">Live</a>
+                    <a href="#video">Video</a>
                     <a href="#footer">Contact</a>
                 </div>
                 <!--*********** BURGER MENU****** -->
@@ -54,7 +55,7 @@
         <div class="container-fluid showcase">
             <div class="event-info">
                 <h3>Are you looking for band </br> for your wedding/party?</h3>
-                <a href="">
+                <a href="#footer">
                     <button class="btn btn-lg btn__login">Contact Us!</button>
                 </a>
             </div>
@@ -63,10 +64,12 @@
     <div class="container">
         <!-- **************************** THE BAND ************************** -->
         <section id="theBand">
+            <h2>The Band</h2>
+            <hr>
             <div class="about row">
                 <div class="col-xs-12 col-md-8">
                     <div class="col-xs-12 col-md-11 ">
-                        <h3>The Band</h3>
+
                         <p>
                             The Doors were an American rock band formed in Los Angeles in 1965, with vocalist Jim
                             Morrison, keyboardist Ray Manzarek, guitarist Robby Krieger, and drummer John Densmore. The
@@ -74,9 +77,7 @@
                             of Perception, which itself was a reference to a quote made by William Blake, "If the doors
                             of perception were cleansed, everything would appear to man as it is, infinite." They were
                             unique and among the most controversial and influential rock acts of the 1960s, mostly
-                            because of Morrison's lyrics and charismatic but unpredictable stage persona. After
-                            Morrison's death in 1971, the remaining members continued as a trio until disbanding in
-                            1973.</p>
+                            because of Morrison's lyrics and charismatic but unpredictable stage persona.  Though they’ve had scores of imitators, there’s never been another band quite like them. And 50 years after their debut album, The Doors’ music and legacy are more influential than ever before.</p>
 
                     </div>
 
@@ -87,7 +88,8 @@
             </div>
 
             <div class="members ">
-                <h3>Members</h3>
+                <h2>Members</h2>
+                <hr>
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -105,8 +107,9 @@
                                 <div class="row member-image"><img src="assets/images/jim.jpg" alt=""></div>
                             </div>
                             <div class="col-xs-12 col-sm-6 member-info">
+
+                                <h4> Singer for The Doors</h4>
                                 <p>
-                                    <h4> Singer for The Doors</h4>
                                     At the center of The Doors’ mystique is the magnetic presence of singer-poet Jim
                                     Morrison, the leather-clad “Lizard King” who brought the riveting power of a shaman
                                     to the microphone.
@@ -251,291 +254,441 @@
         </section>
         <!-- **************************** MUSIC ***************************** -->
         <section id="music">
-            <h3>Music</h3>
+            <h2>Music</h2>
+            <hr>
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3">
-                               <!-- ***************** MODAL ************* -->
+                    <!-- ***************** MODAL ************* -->
 
-                               <div class="modal fade" id="theDoors" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                                                        aria-hidden="true">&times;</span></button>
-                                                <div class="row">
-                                                    <div class="col-xs-4 col-sm-4">
-                                                        <img src="assets/images/the-doors.jpg" alt="">
-                                                    </div>
-                                                    <div class="col-xs-8 col-sm-8">
-                                                        
-                                                        
-                                                    </div>
-                                                </div>
-        
-        
+                    <div class="modal fade" id="theDoors" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                    <div class="row">
+                                        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0">
+                                            <img src="assets/images/the-doors.jpg" alt="">
+                                        </div>
+                                        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0">
+                                            <p>Name: The Doors</p>
+                                            <p>Release Date: January 4, 1967</p>
+                                            <p>
+                                                Label: Elektra
+                                            </p>
+
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <div class="song">
+                                                <p class="song-name">Break On Trough</p>
+                                                <audio controls>
+                                                    <source src="assets/music/Break.mp3" type="audio/mpeg">
+                                                    Your browser does not support the audio element.
+                                                </audio>
                                             </div>
-                                            <div class="modal-body">
-                                                <div class="row">
-                                                    <div class="col-xs-12 col-sm-7 ">
-                                                            <audio controls>
-                                                                    <source src="assets/music/Light My Fire.mp3" type="audio/mpeg">
-                                                                    Your browser does not support the audio element.
-                                                                </audio>
-                                                                <audio controls>
-                                                                        <source src="assets/music/Light My Fire.mp3" type="audio/mpeg">
-                                                                        Your browser does not support the audio element.
-                                                                    </audio>
-                                                                    <audio controls>
-                                                                            <source src="assets/music/Light My Fire.mp3" type="audio/mpeg">
-                                                                            Your browser does not support the audio element.
-                                                                        </audio>
-                                                    </div>
-                                                    <div class="col-xs-12 col-sm-5 ">
-                                                        <ol>
-                                                            <li>Break On Through</li>
-                                                            <li>Soul Kitchen</li>
-                                                            <li>The Crystal Ship</li>
-                                                            <li>Twentieth Century Fox</li>
-                                                            <li>Alabama Song (Whisky Bar)</li>
-                                                            <li>Light My Fire</li>
-                                                            <li>Back Door Man</li>
-                                                            <li>I Looked at You</li>
-                                                            <li>End of the Night</li>
-                                                            <li>Take It as It Comes</li>
-                                                            <li>The End</li>
-                                                        </ol>
-                                                    </div>
-                                                </div>
+                                            <div class="song">
+                                                <p class="song-name">Light my fire</p>
+                                                <audio controls>
+                                                    <source src="assets/music/Light My Fire.mp3" type="audio/mpeg">
+                                                    Your browser does not support the audio element.
+                                                </audio>
                                             </div>
-        
+                                            <div class="song">
+                                                <p class="song-name">Crystal Ship</p>
+                                                <audio controls>
+                                                    <source src="assets/music/Crystal Ship.mp3" type="audio/mpeg">
+                                                    Your browser does not support the audio element.
+                                                </audio>
+                                            </div>
+
+
+
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6 ">
+                                            <h4>Track Listing</h4>
+                                            <ol>
+                                                <li>Break On Through</li>
+                                                <li>Soul Kitchen</li>
+                                                <li>The Crystal Ship</li>
+                                                <li>Twentieth Century Fox</li>
+                                                <li>Alabama Song (Whisky Bar)</li>
+                                                <li>Light My Fire</li>
+                                                <li>Back Door Man</li>
+                                                <li>I Looked at You</li>
+                                                <li>End of the Night</li>
+                                                <li>Take It as It Comes</li>
+                                                <li>The End</li>
+                                            </ol>
                                         </div>
                                     </div>
                                 </div>
-        
-                    <div class="album-cover">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="album-cover ">
                         <a href="#" data-toggle="modal" data-target="#theDoors"><img src="assets/images/the-doors.jpg"
-                                alt=""></a>
+                                alt="">
+                                <i class="far fa-play-circle"></i>
+                            </a>
+                                
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3">
-                               <!-- ***************** MODAL ************* -->
+                    <!-- ***************** MODAL ************* -->
 
-                               <div class="modal fade" id="strangeDays" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                                                        aria-hidden="true">&times;</span></button>
-                                                <div class="row">
-                                                    <div class="col-xs-4 col-sm-4">
-                                                        <img src="assets/images/the-doors.jpg" alt="">
-                                                    </div>
-                                                    <div class="col-xs-8 col-sm-8">
-                                                        <p> Release Date: January 4, 1967</p>
-                                                        <p>Label: Elektra </p>
-                                                        <audio controls>
-                                                            <source src="assets/music/Light My Fire.mp3" type="audio/mpeg">
-                                                            Your browser does not support the audio element.
-                                                        </audio>
-                                                    </div>
-                                                </div>
-        
-        
+                    <div class="modal fade" id="strangeDays" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                    <div class="row">
+                                        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0">
+                                            <img src="assets/images/strange-days.jpg" alt="">
+                                        </div>
+                                        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0">
+                                            <p>Name: Strange Days</p>
+                                            <p> Release Date: September 25, 1967</p>
+                                            <p>
+                                                Label: Elektra
+                                            </p>
+
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <div class="song">
+                                                <p class="song-name">Strange Days</p>
+                                                <audio controls>
+                                                    <source src="assets/music/Strange Days.mp3" type="audio/mpeg">
+                                                    Your browser does not support the audio element.
+                                                </audio>
                                             </div>
-                                            <div class="modal-body">
-                                                <div class="row">
-                                                    <div class="col-xs-12 col-sm-7 ">
-                                                            <audio controls>
-                                                                    <source src="assets/music/Light My Fire.mp3" type="audio/mpeg">
-                                                                    Your browser does not support the audio element.
-                                                                </audio>
-                                                                <audio controls>
-                                                                        <source src="assets/music/Light My Fire.mp3" type="audio/mpeg">
-                                                                        Your browser does not support the audio element.
-                                                                    </audio>
-                                                                    <audio controls>
-                                                                            <source src="assets/music/Light My Fire.mp3" type="audio/mpeg">
-                                                                            Your browser does not support the audio element.
-                                                                        </audio>
-                                                    </div>
-                                                    <div class="col-xs-12 col-sm-5 ">
-                                                        <ol>
-                                                            <li>Break On Through</li>
-                                                            <li>Soul Kitchen</li>
-                                                            <li>The Crystal Ship</li>
-                                                            <li>Twentieth Century Fox</li>
-                                                            <li>Alabama Song (Whisky Bar)</li>
-                                                            <li>Light My Fire</li>
-                                                            <li>Back Door Man</li>
-                                                            <li>I Looked at You</li>
-                                                            <li>End of the Night</li>
-                                                            <li>Take It as It Comes</li>
-                                                            <li>The End</li>
-                                                        </ol>
-                                                    </div>
-                                                </div>
+                                            <div class="song">
+                                                <p class="song-name">People Are Strange</p>
+                                                <audio controls>
+                                                    <source src="assets/music/The Doors - People Are Strange.mp3" type="audio/mpeg">
+                                                    Your browser does not support the audio element.
+                                                </audio>
                                             </div>
-        
+                                            <div class="song">
+                                                <p class="song-name">Love Me Two Times</p>
+                                                <audio controls>
+                                                    <source src="assets/music/The Doors - Love Me Two Times.mp3" type="audio/mpeg">
+                                                    Your browser does not support the audio element.
+                                                </audio>
+                                            </div>
+
+
+
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6 ">
+                                            <h4>Track Listing</h4>
+                                            <ol>
+                                                <li>Strange Days</li>
+                                                <li>You’re Lost Little Girl</li>
+                                                <li>Love Me Two Times</li>
+                                                <li>Unhappy Girl</li>
+                                                <li>Horse Latitudes</li>
+                                                <li>Moonlight Drive</li>
+                                                <li>People Are Strange</li>
+                                                <li>My Eyes Have Seen You</li>
+                                                <li>I Can’t See Your Face In My Mind</li>
+                                                <li>When The Music’s Over</li>
+                                            </ol>
                                         </div>
                                     </div>
                                 </div>
-        
+
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="album-cover">
-                        <a href="#" data-toggle="modal" data-target="#strangeDays"><img src="assets/images/strange-days.jpg" alt=""></a>
+                        <a href="#" data-toggle="modal" data-target="#strangeDays"><img src="assets/images/strange-days.jpg"
+                                alt="">
+                                <i class="far fa-play-circle"></i>
+                            </a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3">
-                               <!-- ***************** MODAL ************* -->
+                    <!-- ***************** MODAL ************* -->
 
-                               <div class="modal fade" id="waitingForSun" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                                                        aria-hidden="true">&times;</span></button>
-                                                <div class="row">
-                                                    <div class="col-xs-4 col-sm-4">
-                                                        <img src="assets/images/the-doors.jpg" alt="">
-                                                    </div>
-                                                    <div class="col-xs-8 col-sm-8">
-                                                        <p> Release Date: January 4, 1967</p>
-                                                        <p>Label: Elektra </p>
-                                                        <audio controls>
-                                                            <source src="assets/music/Light My Fire.mp3" type="audio/mpeg">
-                                                            Your browser does not support the audio element.
-                                                        </audio>
-                                                    </div>
-                                                </div>
-        
-        
+                    <div class="modal fade" id="waitingForSun" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                    <div class="row">
+                                        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0">
+                                            <img src="assets/images/waiting-for-sun.jpg" alt="">
+                                        </div>
+                                        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0">
+                                            <p>Name: Waiting For Sun</p>
+                                            <p>Release Date: July 3, 1968</p>
+                                            <p>
+                                                Label: Elektra
+                                            </p>
+
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <div class="song">
+                                                <p class="song-name">Hello I Love You</p>
+                                                <audio controls>
+                                                    <source src="assets/music/The Doors - Hello I Love You.mp3" type="audio/mpeg">
+                                                    Your browser does not support the audio element.
+                                                </audio>
                                             </div>
-                                            <div class="modal-body">
-                                                <div class="row">
-                                                    <div class="col-xs-12 col-sm-7 ">
-                                                            <audio controls>
-                                                                    <source src="assets/music/Light My Fire.mp3" type="audio/mpeg">
-                                                                    Your browser does not support the audio element.
-                                                                </audio>
-                                                                <audio controls>
-                                                                        <source src="assets/music/Light My Fire.mp3" type="audio/mpeg">
-                                                                        Your browser does not support the audio element.
-                                                                    </audio>
-                                                                    <audio controls>
-                                                                            <source src="assets/music/Light My Fire.mp3" type="audio/mpeg">
-                                                                            Your browser does not support the audio element.
-                                                                        </audio>
-                                                    </div>
-                                                    <div class="col-xs-12 col-sm-5 ">
-                                                        <ol>
-                                                            <li>Break On Through</li>
-                                                            <li>Soul Kitchen</li>
-                                                            <li>The Crystal Ship</li>
-                                                            <li>Twentieth Century Fox</li>
-                                                            <li>Alabama Song (Whisky Bar)</li>
-                                                            <li>Light My Fire</li>
-                                                            <li>Back Door Man</li>
-                                                            <li>I Looked at You</li>
-                                                            <li>End of the Night</li>
-                                                            <li>Take It as It Comes</li>
-                                                            <li>The End</li>
-                                                        </ol>
-                                                    </div>
-                                                </div>
+                                            <div class="song">
+                                                <p class="song-name">My Wild Love</p>
+                                                <audio controls>
+                                                    <source src="assets/music/The Doors - My Wild Love.mp3" type="audio/mpeg">
+                                                    Your browser does not support the audio element.
+                                                </audio>
                                             </div>
-        
+                                            <div class="song">
+                                                <p class="song-name">Love Street</p>
+                                                <audio controls>
+                                                    <source src="assets/music/The Doors - Love Street.mp3" type="audio/mpeg">
+                                                    Your browser does not support the audio element.
+                                                </audio>
+                                            </div>
+
+
+
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6 ">
+                                            <h4>Track Listing</h4>
+                                            <ol>
+                                                <li>Hello, I Love You</li>
+                                                <li>Love Street</li>
+                                                <li>Not To Touch The Earth</li>
+                                                <li>Summer’s Almost Gone</li>
+                                                <li>Wintertime Love</li>
+                                                <li>The Unknown Soldier</li>
+                                                <li>Spanish Caravan</li>
+                                                <li>My Wild Love</li>
+                                                <li>We Could Be So Good Together</li>
+                                                <li>Yes, The River Knows</li>
+                                                <li>Five To One</li>
+                                            </ol>
                                         </div>
                                     </div>
                                 </div>
-        
+
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="album-cover">
-                        <a href="#" data-toggle="modal" data-target="#waitingForSun"><img src="assets/images/waiting-for-sun.jpg" alt=""></a>
+                        <a href="#" data-toggle="modal" data-target="#waitingForSun"><img src="assets/images/waiting-for-sun.jpg"
+                                alt="">
+                                <i class="far fa-play-circle"></i>
+                            </a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3">
-                               <!-- ***************** MODAL ************* -->
+                    <!-- ***************** MODAL ************* -->
+                    <div class="modal fade" id="softParade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                    <div class="row">
+                                        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0">
+                                            <img src="assets/images/soft-parade.jpg" alt="">
+                                        </div>
+                                        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0">
+                                            <p>Name: Soft Parade</p>
+                                            <p>Release Date: July 18, 1969</p>
+                                            <p>
+                                                Label: Elektra
+                                            </p>
 
-                               <div class="modal fade" id="softParade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                                                        aria-hidden="true">&times;</span></button>
-                                                <div class="row">
-                                                    <div class="col-xs-4 col-sm-4">
-                                                        <img src="assets/images/the-doors.jpg" alt="">
-                                                    </div>
-                                                    <div class="col-xs-8 col-sm-8">
-                                                        <p> Release Date: January 4, 1967</p>
-                                                        <p>Label: Elektra </p>
-                                                        
-                                                    </div>
-                                                </div>
-        
-        
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <div class="song">
+                                                <p class="song-name">Touch Me</p>
+                                                <audio controls>
+                                                    <source src="assets/music/The Doors - Touch Me.mp3" type="audio/mpeg">
+                                                    Your browser does not support the audio element.
+                                                </audio>
                                             </div>
-                                            <div class="modal-body">
-                                                <div class="row">
-                                                    <div class="col-xs-12 col-sm-7 ">
-                                                            <audio controls>
-                                                                    <source src="assets/music/Light My Fire.mp3" type="audio/mpeg">
-                                                                    Your browser does not support the audio element.
-                                                                </audio>
-                                                                <audio controls>
-                                                                        <source src="assets/music/Light My Fire.mp3" type="audio/mpeg">
-                                                                        Your browser does not support the audio element.
-                                                                    </audio>
-                                                                    <audio controls>
-                                                                            <source src="assets/music/Light My Fire.mp3" type="audio/mpeg">
-                                                                            Your browser does not support the audio element.
-                                                                        </audio>
-                                                    </div>
-                                                    <div class="col-xs-12 col-sm-5 ">
-                                                        <ol>
-                                                            <li>Break On Through</li>
-                                                            <li>Soul Kitchen</li>
-                                                            <li>The Crystal Ship</li>
-                                                            <li>Twentieth Century Fox</li>
-                                                            <li>Alabama Song (Whisky Bar)</li>
-                                                            <li>Light My Fire</li>
-                                                            <li>Back Door Man</li>
-                                                            <li>I Looked at You</li>
-                                                            <li>End of the Night</li>
-                                                            <li>Take It as It Comes</li>
-                                                            <li>The End</li>
-                                                        </ol>
-                                                    </div>
-                                                </div>
+                                            <div class="song">
+                                                <p class="song-name">Wild Child</p>
+                                                <audio controls>
+                                                    <source src="assets/music/Wild Child - The Doors.mp3" type="audio/mpeg">
+                                                    Your browser does not support the audio element.
+                                                </audio>
                                             </div>
-        
+                                            <div class="song">
+                                                <p class="song-name">Wishful Sinful</p>
+                                                <audio controls>
+                                                    <source src="assets/music/The Doors Wishful Sinful.mp3" type="audio/mpeg">
+                                                    Your browser does not support the audio element.
+                                                </audio>
+                                            </div>
+
+
+
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6 ">
+                                            <h4>Track Listing</h4>
+                                            <ol>
+                                                <li>Tell All The People</li>
+                                                <li>Touch Me</li>
+                                                <li>Shaman’s Blues</li>
+                                                <li>Do It</li>
+                                                <li>Easy Ride</li>
+                                                <li>Wild Child</li>
+                                                <li>Runnin’ Blue</li>
+                                                <li>Wishful Sinful</li>
+                                                <li>The Soft Parade</li>
+                                            </ol>
                                         </div>
                                     </div>
                                 </div>
-        
+
+                            </div>
+                        </div>
+                    </div>
+
+
                     <div class="album-cover">
-                        <a href="#" data-toggle="modal" data-target="#softParade"><img src="assets/images/soft-parade.jpg" alt=""></a>
+                        <a href="#" data-toggle="modal" data-target="#softParade"><img src="assets/images/soft-parade.jpg"
+                                alt="">
+                                <i class="far fa-play-circle"></i>
+                            </a>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="concerts"></section>
-        <section></section>
+        <!-- **************************** VIDEO ************************** -->
+        <section id="video">
+            <h2>Video</h2>
+            <hr>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/94u5G0T6gjg" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/9Zwml7Zaqdk" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5noNsN3899Y" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/h7L0zdZeZLo" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/rXVCNlGnPE0" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/3bSaWvT-CVo" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </section>
+
     </div>
+    <!-- **************************** FOOTER ***************************** -->
     <footer id="footer">
         <div class="row container">
+            <div class="col-xs-12 col-sm-4">
+                <div class="adress">
+                    <h4>Adress</h4>
+                    <p>The Doors</p>
+                    <p>Royal Street 7</p>
+                    <p>London</p>
+                </div>
+                <div class="social-icons">
+                    <h4>Follow Us</h4>
+                    <ul class="list-inline social-links">
+                        <li><a target="_blank" href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
+
+                        <li><a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
             <div class="col-xs-12 col-sm-8">
+                <h4>Contact Us</h4>
                 <form>
                     <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required />
-                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email"
+                    <input type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email"
                         required />
                     <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Your Message.."
                         required></textarea>
                     <button type="submit" class="btn btn-secondary center-block">Send</button>
                 </form>
             </div>
-            <div class="col-xs-12 col-sm-4">
-                <p></p>
+            <div class="col-xs-12 copyrights">
+
+                <p>&copy; <i> 2018 The Doors. All rights reserved</i> </p>
+
             </div>
         </div>
+
     </footer>
 </body>
 
