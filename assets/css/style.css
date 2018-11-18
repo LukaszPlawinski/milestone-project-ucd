@@ -12,7 +12,7 @@
  body {
      margin: 0;
      padding: 0;
-     min-width: 350px;
+     /* min-width: 320px; */
      font-family: 'Montserrat', sans-serif;
 
  }
@@ -70,8 +70,8 @@
 
  .event-info {
      position: relative;
-     width: 400px;
-     margin: 100px auto;
+     min-width: 300px;
+     margin: 80px auto;
      text-transform: uppercase;
      font-weight: 900;
      color: rgba(30, 30, 30, 0.5);
@@ -164,6 +164,15 @@
      display: block;
    
  }
+ .event-info {
+    position: relative;
+    min-width: 300px;
+    margin: 80px auto;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: rgba(30, 30, 30, 0.5);
+    text-align: center;
+}
 
  /*---------------------------- BAND ----------------------------*/
  .container {
@@ -198,7 +207,7 @@
  .carousel-inner {
      background: #222;
      color: #fafafa;
-     S border-radius: 15px;
+     border-radius: 15px;
  }
 
  /*---------------------------- MUSIC ----------------------------*/
