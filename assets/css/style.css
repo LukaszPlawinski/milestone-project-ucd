@@ -12,7 +12,6 @@
  body {
      margin: 0;
      padding: 0;
-     /* min-width: 320px; */
      font-family: 'Montserrat', sans-serif;
 
  }
@@ -22,6 +21,17 @@
      margin: 60px 0 10px 0;
      text-shadow: 1px 1px 2px #fafafa;
  }
+
+ .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px;
+    
+}
+hr{
+    
+    box-shadow: 1px 1px 2px #333;
+}
 
  /*---------------------------- NAV ----------------------------*/
  .navbar {
@@ -186,13 +196,7 @@
 }
 
  /*---------------------------- BAND ----------------------------*/
- .container {
-     width: 90%;
-     margin: 0 auto;
-     padding: 40px;
-     
-     
- }
+
 
  .about p {
      margin-top: 50px;
@@ -247,9 +251,9 @@
      font-weight: 200;
  }
 
- .album-cover img:hover {
+ /* .album-cover img:hover {
      opacity: 0.9;
- }
+ } */
 
  .album-cover {
      margin: 15px 0;
