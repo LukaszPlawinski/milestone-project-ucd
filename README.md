@@ -57,5 +57,5 @@ Website is deployed to github pages, exactly at this [link](https://lukaszplawin
 
 - The text and images  was copied from the [The Doors official website](https://www.thedoors.com/)
 
-- The videos used in this site were obtained from [The Doors Youtube channel](https://www.youtube.com/channel/UCYgJ2M1mq8Ae0QOm_VQU4VQ)
+- The videos and songs used in this site were obtained from [The Doors Youtube channel](https://www.youtube.com/channel/UCYgJ2M1mq8Ae0QOm_VQU4VQ)
 
