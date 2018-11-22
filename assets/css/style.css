@@ -230,6 +230,9 @@ hr{
      color: #fafafa;
      border-radius: 15px;
  }
+ .carousel-control{
+     border-radius: 15px;
+ }
 
  /*---------------------------- MUSIC ----------------------------*/
  .modal-header img,
