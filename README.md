@@ -45,6 +45,7 @@ Project is divided on 5 main sections:
 ## Testing
 
 Site was tested in multiple browsers and on multiple mobile devices.
+I checked code in HTML and CSS validator.
 I made sure that all of the links and videos are work. 
 I filled up contact form to check inputs validation.
 Website uses Bootstrap framework which is is mobile responsive.
