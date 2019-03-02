@@ -6,7 +6,7 @@ Front-end only, Single Page Website for a 1960's band who wants to keep up with 
 ## UX
  
 Website is created for fans and potential fans of all ages.Because of that I tried to make it as simple and readable as possible. Design is in gray and white colors as well as images. 
-Deasign project which i have done in balsamiq you can find in main folder or [here](https://balsamiq.cloud/s66cgc7/ptw94bv)
+Design project which i have done in balsamiq you can find in main folder or [here](https://balsamiq.cloud/s66cgc7/ptw94bv)
 
 User can find on the website:
  - informations and images of band and members
